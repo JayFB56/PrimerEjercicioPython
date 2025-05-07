@@ -1,0 +1,1 @@
+# que metodos se usan dentro de una lista
