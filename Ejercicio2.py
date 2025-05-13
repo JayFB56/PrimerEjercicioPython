@@ -7,7 +7,7 @@ temperatura = int(input('Ingrese la temperatura: '))
 
 if op == 1:
     fahre = 1.8 * temperatura + 32
-    print('La temperatura de {temperatura} Fahrenheit en Celsius es {fahre}')
+    print(f'La temperatura de {temperatura} Fahrenheit en Celsius es {fahre}')
 else:
     celsius = (temperatura - 32) / 1.8
-    print('La temperatura de {temperatura} Fahrenheit en Celsius es {celsius}')
+    print(f'La temperatura de {temperatura} Celsius en Fahrenheit es {celsius}')
